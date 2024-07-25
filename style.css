@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #984d38, #181e41);
+  overflow-x: hidden;
+}
+.navbar-brand img {
+  width: 35px;
+}
+.navbar-nav {
+  margin-left: auto;
+  font-size: 20px;
+}
+.navbar-nav li {
+  padding-left: 20px;
+}
+.navbar-nav .nav-hire {
+  border: 1px solid #fff;
+  width: 90px;
+  transition: background 2s, transform 0.2s;
+}
+.navbar-nav .nav-hire:hover {
+  transform: translateY(-10px);
+}
+/* header */
+.header {
+  margin-top: 10rem;
+  color: #fff;
+}
+.header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 70px;
+}
+.header p {
+  opacity: 50%;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.header-img img {
+  width: 408px;
+}
+.header-img {
+  position: relative;
+  margin-left: 35%;
+  display: flex;
+  align-items: center;
+}
+.header-img .name {
+  writing-mode: vertical-lr;
+  text-align: center;
+  transform: rotate(180deg);
+  opacity: 30%;
+  font-size: 20px;
+  letter-spacing: 2rem;
+  position: absolute;
+  right: 55rem;
+}
+/* apps */
+.apps {
+  background-color: black;
+  padding: 50px 100px 50px;
+}
+.app {
+  position: relative;
+  left: 5rem;
+}
+/* mid */
+.mid {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3rem;
+}
+.item-left img {
+  width: 408px;
+}
+.item-right {
+  color: #fff;
+  position: relative;
+  padding-top: 7rem;
+}
+.item-right h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.item-right p {
+  font-size: 20px;
+  padding-top: 10px;
+  max-width: 445px;
+  opacity: 50%;
+}
+/* user */
+.User-profile {
+  margin-top: 5rem;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 6rem;
+}
+.user-title {
+  position: relative;
+  top: 7rem;
+}
+.user-title h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+.user-title p {
+  font-size: 20px;
+  color: #fff;
+  opacity: 60%;
+  max-width: 585px;
+}
+.cv-left h4,
+.cv-right h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.cv-left p,
+.cv-right p {
+  opacity: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+.user-cv {
+  padding: 0 10px 0;
+  margin-right: 20rem;
+}
+/* logo */
+.logo1-title,
+.logo2-title,
+.logo3-title {
+  padding-left: 10px;
+  color: black;
+}
+.logo1-title h2,
+.logo2-title h2,
+.logo3-title h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -2px;
+}
+.logo1-title p,
+.logo2-title p,
+.logo3-title p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.logo-1,
+.logo-3 {
+  background-color: #919191;
+  border-radius: 15px;
+  height: 170px;
+}
+.logo-2 {
+  background: #fff;
+  border-radius: 15px;
+  height: 170px;
+}
+/* footer title */
+.footer-title h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: normal;
+}
+.footer-title .btn {
+  border: 1px solid #fff;
+  outline: 0;
+  margin-top: 15px;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+/* footer-nav */
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.footer-discription p {
+  font-size: 20px;
+  opacity: 50%;
+  margin-bottom: 0;
+}
+.footer-discription span {
+  font-weight: bold;
+}
+.footer-logo{
+  cursor: pointer;
+}
+/* responsive */
+@media (max-width: 1200px){
+  .header-img {
+    align-items: center;
+    margin-left: 18rem;
+  }
+  .app {
+    align-items: center;
+    left: auto;
+  }
+  .user-cv {
+    margin-right: 15rem;
+  }
+  .header-img .name{
+    position: absolute;
+    right: 40rem;
+  }
+  .item-right{
+    position: relative;
+    left: 10%;
+  }
+}
+@media (max-width: 992px){
+  .header-img {
+    margin-left: 10rem;
+  }
+  .header-img .name{
+    position: absolute;
+    right: 55rem;
+  }
+  .item-left{
+    position: relative;
+    left: 19vh;
+  }
+  .item-right{
+    text-align: center;
+  }
+  .item-right p{
+    margin: auto;
+  }
+  .user-title h1{
+    font-size: 40px;
+  }
+  .user-title p{
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .User-profile{
+    margin-top: 2rem;
+  }
+  .user-title{
+    text-align: center;
+    position: relative;
+    top: -1rem;
+  }
+  .logo-1{
+    width: 100px;
+  }
+  .item-right{
+   position: relative;
+   left: -1px;
+  }
+  .user-cv {
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 768px){
+  .header-img {
+    margin-left: 4rem;
+  }
+  .app img {
+    width: 100%;
+  }
+  .item-left{
+    position: relative;
+    left: 8vh;
+  }
+  .footer-title h1{
+    font-size: 40px;
+  }
+  .footer-discription p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 567px){
+  .header-img {
+   margin-left: auto;
+  }
+  .item-left{
+    position: relative;
+    left: auto;
+  }
+  .app img {
+    width: 110%;
+  }
+}
