@@ -282,14 +282,13 @@ body {
   }
 }
 @media (max-width: 567px){
-  .header-img {
-   margin-left: auto;
-  }
-  .item-left{
-    position: relative;
-    left: auto;
+  .header-img img{
+    width: 70%;
   }
   .app img {
     width: 110%;
+  }
+  .item-left img{
+    width: 70%;
   }
 }
