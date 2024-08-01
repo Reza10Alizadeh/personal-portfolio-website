@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  overflow-x: hidden;
 }
 body {
   height: 100vh;
   background: linear-gradient(to right, #984d38, #181e41);
+  overflow-x: hidden;
 }
 .navbar-brand img {
   width: 35px;
